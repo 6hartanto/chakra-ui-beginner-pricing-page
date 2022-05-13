@@ -1,9 +1,12 @@
 import "./App.css";
-import { Box, Stack, VStack, HStack } from "@chakra-ui/react";
+import { Box, Stack, VStack, HStack, Text } from "@chakra-ui/react";
 
 function App() {
   return (
     <div className="App">
+      <Text as='i'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur amet obcaecati quibusdam! Iure fuga accusantium, sed perspiciatis ex quasi dolorem quis natus aliquam sunt suscipit tenetur iste doloremque quo nisi.
+      </Text>
       <HStack spacing='24px'>
         <Box bg="green" w="100px" h="200px">
           item1
